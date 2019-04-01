@@ -1,5 +1,5 @@
 <#Pull from excel sheet#>
-$objExcel = new-object -comobject excel.application  
+$objExcel = New-Object -comobject excel.application  
 $objExcel.ScreenUpdating = $true
 $objExcel.DisplayAlerts = $true
 $objExcel.Visible = $true
@@ -39,3 +39,13 @@ $objExcel.Quit()
 
 
 <##>
+
+
+#Just so VSCode Quiets down
+$ColumA
+$ColumB
+$ColumC
+$ColumD
+$ColumE
+$ColumF
+$ColumG
